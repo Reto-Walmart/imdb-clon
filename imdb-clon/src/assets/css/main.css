@@ -1,3 +1,106 @@
+body {
+  background-color: #251A1A;
+  height: 100%;
+  padding-top: 10px; }
+
+.cast--title {
+  position: relative;
+  top: 10vh;
+  padding-left: 25vh;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  padding-top: 2vh 0 2vh;
+  z-index: 1; }
+
+.cast--name {
+  color: #EED850;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 40px; }
+
+.cast--paragraph {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 100; }
+
+.cast--title__right {
+  position: relative;
+  top: 10vh;
+  padding-left: -15vh;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  padding-top: 2vh 0 2vh;
+  z-index: 1; }
+
+#movie-info {
+  background-color: #251A1A;
+  height: 100%;
+  padding-top: 150px; }
+
+.movie--year {
+  color: rgba(255, 255, 255, 0.51); }
+
+.movie--title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.movie--paragraph {
+  color: rgba(255, 255, 255, 0.51);
+  font-family: "Roboto", sans-serif; }
+
+.label--color {
+  color: #ffffff; }
+
+.label--span__color {
+  color: #EED850; }
+
+.awards--title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px; }
+
+.awards--paragraph {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.awards--see-more {
+  color: #EED850;
+  font-family: "Roboto", sans-serif; }
+
+.awards--see-more2 {
+  color: #EED850;
+  font-family: "Roboto", sans-serif;
+  margin-top: 237px; }
+
+.details--colorText {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.detail-p {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.detail-p span {
+  color: #EED850;
+  font-family: "Roboto", sans-serif; }
+
+.review--title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.review--title__subtitulo {
+  font-weight: 700;
+  color: #ffffff; }
+
+.reviews p {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.reviews span {
+  color: #EED850;
+  font-family: "Roboto", sans-serif; }
+
 body, html {
   height: 100%; }
 

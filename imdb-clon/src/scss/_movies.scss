@@ -1,0 +1,68 @@
+#movie-info{
+    background-color: #251A1A;
+    height: 100%;
+    padding-top: 150px;
+}
+.movie--year{
+    color:$transparency-light;
+}
+.movie--title{
+    color:$brand-secondary-color;
+    font-family: $brand-font;
+}
+.movie--paragraph{
+    color:$transparency-light;
+    font-family: $brand-font;
+}
+.label--color{
+    color:$brand-secondary-color;
+}
+.label--span__color{
+    color:$brand-primary-color;
+}
+.awards--title{
+    color:$brand-secondary-color;
+    font-family: $brand-font;
+    margin-top: 50px;
+}
+.awards--paragraph{
+    color:$brand-secondary-color;
+    font-family: $brand-font;
+}
+.awards--see-more{
+    color:$brand-primary-color;
+    font-family: $brand-font;
+}
+.awards--see-more2{
+    color:$brand-primary-color;
+    font-family: $brand-font;
+    margin-top:237px;
+}
+.details--colorText{
+    color:$brand-secondary-color;
+    font-family: $brand-font;
+}
+.detail-p{
+    color:$brand-secondary-color;
+    font-family: $brand-font;
+}
+ .detail-p span{
+    color:$brand-primary-color;
+    font-family: $brand-font;
+}
+.review--title{
+    color:$brand-secondary-color;
+    font-family: $brand-font;
+}
+.review--title__subtitulo{
+    font-weight:$font-weight-bold;
+    color:$brand-secondary-color;
+}
+.reviews p{
+    color:$brand-secondary-color;
+    font-family: $brand-font;
+}
+.reviews span{
+    color:$brand-primary-color;
+    font-family: $brand-font;
+}

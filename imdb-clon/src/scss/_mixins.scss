@@ -38,3 +38,41 @@
   color: $brand-primary-color;
   font-weight: $font-weight-regular;
 }
+@mixin cast-paragraph-style{
+  .cast--name{
+    color:$brand-primary-color;
+    font-family: $brand-font;
+    font-weight: 100;
+    font-size: 40px;
+  }
+  .cast--paragraph{
+    color:$brand-secondary-color;
+    font-family: $brand-font;
+    font-size: 13px;
+    font-weight: 100;
+
+  }
+}
+@mixin cast-title-mix{
+  .cast--title{
+    position: relative;
+    top:10vh;
+    padding-left: 25vh;
+    font-family: $brand-font;
+    color:$brand-secondary-color;
+    padding-top: $padding-top-bottom;
+    z-index: 1;
+  }
+}
+@mixin cast-title__right-mix{
+  .cast--title__right{
+    position: relative;
+    top:10vh;
+    padding-left: -15vh;
+    font-family: $brand-font;
+    color:$brand-secondary-color;
+    padding-top: $padding-top-bottom;
+    z-index: 1;
+  }
+}
+

@@ -1,5 +1,7 @@
 @import 'variables';
 @import 'mixins';
+@import 'cast';
+@import 'movies';
 
 body, html {
     height: 100%;
@@ -68,3 +70,4 @@ a i{
 .bg-yellow{
   background-color: $brand-primary-color;
 }
+
