@@ -22,13 +22,13 @@ import { MoviesService } from './movies.service';
 export class AppComponent {
   constructor(private moviesService: MoviesService) {}
   movies = [];
-  
-  ngOnInit():void {
-    this.loadMovie()
-  }
-
-  loadMovie () {
-    this.moviesService.getMovies()
-    .then(data => this.movies = data);
-  }
-}
+//
+//  ngOnInit():void {
+//    this.loadMovie()
+//  }
+//
+//  loadMovie () {
+//    this.moviesService.getMovies()
+//    .then(data => this.movies = data);
+//  }
+ }
