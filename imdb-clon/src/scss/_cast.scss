@@ -1,0 +1,9 @@
+  body{
+    background-color: #251A1A;
+    height: 100%;
+    padding-top: 10px;
+  }
+  @include cast-title-mix;
+  @include cast-paragraph-style;
+  @include cast-title__right-mix;
+
