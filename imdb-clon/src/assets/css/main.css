@@ -101,6 +101,45 @@ body {
   color: #EED850;
   font-family: "Roboto", sans-serif; }
 
+.form-control {
+  width: 500px;
+  align-self: stretch center;
+  margin-top: 100px; }
+
+.glyphicon-search {
+  padding-left: 100px;
+  margin-top: 100px; }
+
+.peli {
+  margin-top: 50px;
+  margin-left: 260px; }
+
+.search--name {
+  margin-left: 130px;
+  margin-top: 50px;
+  color: #ffffff;
+  width: 400px; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .form-control {
+    width: 300px;
+    align-self: stretch center;
+    margin-top: 100px; }
+
+  .glyphicon-search {
+    padding-left: 10px;
+    margin-top: 100px;
+    color: white; }
+
+  .peli {
+    margin-top: 50px;
+    margin-left: 255px; }
+
+  .search--name {
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 10px;
+    color: #ffffff; } }
 body, html {
   height: 100%; }
 
