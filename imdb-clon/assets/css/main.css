@@ -1,0 +1,65 @@
+body, html {
+  height: 100%; }
+
+.bottom {
+  margin-bottom: 0; }
+
+.flex-direction-col {
+  display: flex;
+  flex-direction: column; }
+
+.flex-direction--row {
+  display: flex;
+  flex-direction: row; }
+
+.bg-img {
+  background-image: url("../img/interstellar1280x800.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1; }
+  .bg-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.51); }
+
+a i {
+  padding-top: 4vh;
+  color: rgba(255, 255, 255, 0.51); }
+  a i:hover {
+    color: #EED850; }
+
+.yellow-text-regular {
+  color: #EED850;
+  font-weight: 400; }
+
+.block-height-small {
+  margin-top: 5vh; }
+
+.block-height-medium {
+  margin-top: 15vh; }
+
+.block-height-large {
+  margin-top: 25vh; }
+
+.vertical-paddig {
+  padding: 2vh 0 2vh; }
+
+.left-padding {
+  padding-left: 2vh; }
+
+.right-padding {
+  padding-right: 2vh; }
+
+.bg-white {
+  background-color: #ffffff; }
+
+.bg-yellow {
+  background-color: #EED850; }
+
+/*# sourceMappingURL=main.css.map */

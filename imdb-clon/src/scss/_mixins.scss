@@ -34,6 +34,21 @@
   background-color: $transparency-dark;
 }
 
+@mixin white-title-light {
+  color: $brand-secondary-color !important;
+  font-weight: $font-weight-light;
+  font-size: $font-size-medium;
+  margin-top: 0px!important;
+  margin-bottom: $margin-top-xsmall;
+}
+
+@mixin white-text-regular {
+  color: $brand-secondary-color !important;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-small;
+  margin: 0px!important;
+}
+
 @mixin yellow-text-regular{
   color: $brand-primary-color;
   font-weight: $font-weight-regular;
@@ -76,3 +91,9 @@
   }
 }
 
+@mixin white-text-bold {
+  color: $brand-secondary-color !important;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-small;
+  margin-bottom: $margin-top-xsmall;
+}
