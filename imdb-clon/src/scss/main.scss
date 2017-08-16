@@ -5,10 +5,6 @@ body, html {
     height: 100%;
 }
 
-.container-fluid{
-  height: 100vh;
-}
-
 .bottom {
   margin-bottom: 0;
 }
@@ -37,23 +33,6 @@ a i{
     @include icon-size-hover;
   }
 }
-
-.detail-container{
-  margin-top: $margin-top-medium;
-}
-.text-bold{
-  @include white-text-bold;
-}
-.title-light{
-  @include white-title-light;
-}
-.text-regular{
-  @include white-text-regular;
-  .top-number{
-    color: $brand-primary-color;
-  }
-}
-
 .yellow-text-regular{
   @include yellow-text-regular;
 }
@@ -86,14 +65,42 @@ a i{
   background-color: $brand-secondary-color;
 }
 
-.bg-white.b-radius-l{
-  border-radius: 10px 0px 0px 10px;
-}
-
-.bg-yellow.b-radius-r{
-  border-radius: 0px 10px 10px 0px;
-}
-
 .bg-yellow{
   background-color: $brand-primary-color;
+}
+
+// gallery
+
+.header{
+  @include white-header-light;
+}
+
+.bg-img-gallery{
+  background-image: url("../img/interstellar.jpg");
+  @include bg-img-gallery;
+}
+
+.bg-transparency{
+  @include bg-img-transparency-gradient;
+}
+
+.hr-light{
+  width: 90%;
+  border-color: $transparency-light;
+  margin-top: $margin-top-small;
+}
+
+.img-margin{
+  margin-bottom: $margin-top-small;
+}
+.img-margin-large{
+  margin-bottom: $margin-top-large;
+}
+
+.img-index-small{
+  @include img-index-small;
+}
+
+.img-index-large{
+  @include img-index-large;
 }
