@@ -37,6 +37,30 @@ a i {
   a i:hover {
     color: #EED850; }
 
+.detail-container {
+  margin-top: 15vh; }
+
+.text-bold {
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1vh; }
+
+.title-light {
+  color: #ffffff !important;
+  font-weight: 300;
+  font-size: 2.3rem;
+  margin-top: 0px !important;
+  margin-bottom: 1vh; }
+
+.text-regular {
+  color: #ffffff !important;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0px !important; }
+  .text-regular .top-number {
+    color: #EED850; }
+
 .yellow-text-regular {
   color: #EED850;
   font-weight: 400; }
@@ -61,6 +85,12 @@ a i {
 
 .bg-white {
   background-color: #ffffff; }
+
+.bg-white.b-radius-l {
+  border-radius: 10px 0px 0px 10px; }
+
+.bg-yellow.b-radius-r {
+  border-radius: 0px 10px 10px 0px; }
 
 .bg-yellow {
   background-color: #EED850; }
