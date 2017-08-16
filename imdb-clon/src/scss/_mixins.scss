@@ -1,0 +1,40 @@
+@mixin flex-direction-col{
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-direction-row{
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin icon-size{
+  padding-top: 4vh;
+}
+
+@mixin icon-size-hover{
+  color: $brand-primary-color;
+}
+
+@mixin bg-img{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+@mixin bg-img-transparency{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: $transparency-dark;
+}
+
+@mixin yellow-text-regular{
+  color: $brand-primary-color;
+  font-weight: $font-weight-regular;
+}

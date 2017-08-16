@@ -1,0 +1,70 @@
+@import 'variables';
+@import 'mixins';
+
+body, html {
+    height: 100%;
+}
+
+.bottom {
+  margin-bottom: 0;
+}
+
+.flex-direction-col{
+  @include flex-direction-col;
+}
+
+.flex-direction--row{
+  @include flex-direction-row;
+}
+
+.bg-img{
+  background-image: url("../img/interstellar1280x800.jpg");
+  @include bg-img;
+  &:before{
+    @include bg-img-transparency;
+  }
+}
+
+a i{
+  @include icon-size;
+  color: $transparency-light;
+
+  &:hover{
+    @include icon-size-hover;
+  }
+}
+.yellow-text-regular{
+  @include yellow-text-regular;
+}
+
+.block-height-small{
+  margin-top: $margin-top-small;
+}
+
+.block-height-medium{
+  margin-top: $margin-top-medium;
+}
+
+.block-height-large{
+  margin-top: $margin-top-large;
+}
+
+.vertical-paddig{
+  padding: $padding-top-bottom;
+}
+
+.left-padding{
+  padding-left: $padding-left-right;
+}
+
+.right-padding{
+  padding-right: $padding-left-right;
+}
+
+.bg-white{
+  background-color: $brand-secondary-color;
+}
+
+.bg-yellow{
+  background-color: $brand-primary-color;
+}
