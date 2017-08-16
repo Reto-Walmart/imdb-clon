@@ -73,6 +73,15 @@ a i{
   margin-top: $margin-top-large;
 }
 
+.margin {
+  margin: 2vh;
+  padding:0;
+}
+
+.padding {
+  padding: 2vh;
+}
+
 .vertical-paddig{
   padding: $padding-top-bottom;
 }
@@ -83,6 +92,10 @@ a i{
 
 .right-padding{
   padding-right: $padding-left-right;
+}
+
+.font-white{
+  color: $brand-secondary-color;
 }
 
 .bg-white{

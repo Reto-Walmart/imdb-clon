@@ -216,6 +216,13 @@ a i {
 .block-height-large {
   margin-top: 25vh; }
 
+.margin {
+  margin: 2vh;
+  padding: 0; }
+
+.padding {
+  padding: 2vh; }
+
 .vertical-paddig {
   padding: 2vh 0 2vh; }
 
@@ -224,6 +231,9 @@ a i {
 
 .right-padding {
   padding-right: 2vh; }
+
+.font-white {
+  color: #ffffff; }
 
 .bg-white {
   background-color: #ffffff; }
