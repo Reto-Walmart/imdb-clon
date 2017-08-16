@@ -17,7 +17,7 @@
 }
 
 @mixin bg-img{
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,6 +32,42 @@
   left: 0;
   bottom: 0;
   background-color: $transparency-dark;
+}
+
+@mixin yellow-text-regular{
+  color: $brand-primary-color;
+  font-weight: $font-weight-regular;
+}
+
+//gallery
+
+@mixin bg-img-gallery{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+@mixin bg-img-transparency-gradient{
+  background-size:cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background: rgba(0,0,0,0.23);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.23) 0%, rgba(19,19,19,0.73) 54%, rgba(19,19,19,1) 84%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.23)), color-stop(54%, rgba(19,19,19,0.73)), color-stop(84%, rgba(19,19,19,1)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.23) 0%, rgba(19,19,19,0.73) 54%, rgba(19,19,19,1) 84%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0.23) 0%, rgba(19,19,19,0.73) 54%, rgba(19,19,19,1) 84%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0.23) 0%, rgba(19,19,19,0.73) 54%, rgba(19,19,19,1) 84%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.23) 0%, rgba(19,19,19,0.73) 54%, rgba(19,19,19,1) 84%);
+}
+
+@mixin white-header-light {
+  color: $brand-secondary-color !important;
+  font-weight: $font-weight-light;
+  font-size: $font-size-large;
+  margin-top: 0px!important;
+  margin-bottom: $margin-top-medium;
 }
 
 @mixin white-title-light {
@@ -49,10 +85,6 @@
   margin: 0px!important;
 }
 
-@mixin yellow-text-regular{
-  color: $brand-primary-color;
-  font-weight: $font-weight-regular;
-}
 @mixin cast-paragraph-style{
   .cast--name{
     color:$brand-primary-color;
@@ -96,4 +128,24 @@
   font-weight: $font-weight-bold;
   font-size: $font-size-small;
   margin-bottom: $margin-top-xsmall;
+}
+
+@mixin img-index-small {
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 30%;
+  color: $brand-secondary-color;
+  font-size: $font-size-small;
+  font-weight: $font-weight-bold;
+  text-shadow: 0 0 55px black, 0 1px 0 rgba(0,0,0, .25);
+}
+
+@mixin img-index-large {
+  position: absolute;
+  margin-left: 93%;
+  margin-top: 25%;
+  color: $brand-secondary-color;
+  font-size: $font-size-small;
+  font-weight: $font-weight-bold;
+  text-shadow: 0 0 55px black, 0 1px 0 rgba(0,0,0, .25);
 }
